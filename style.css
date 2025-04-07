@@ -66,7 +66,7 @@ h3 {
 p {
     color: rgb(12, 123, 161);
     font-size: 20px;
-    margin: 0 90px 0 90px;
+    margin: 0 90px 0;  /*Zero cima e baixo e 90px pros lados.*/
 }
 
 strong {
@@ -79,11 +79,11 @@ li {
 }
 
 .rodape {
-    margin: 80px 0 40px 0; /*Para o rodapé ficar grudado na margem final da página, coloca a medida que deseja da margem superior(em cima) e coloca zero nos lados e em baixo.*/
-    /*background-color: rgb(4, 24, 113);
+    margin: 80px 0 0; /*Para o rodapé ficar grudado na margem final da página, coloca a medida que deseja da margem superior(em cima) e coloca zero nos lados e em baixo.*/
+    background-color: rgb(38, 38, 232);
     padding: 20px;
     background: rgb(2,2,25);
-    background: linear-gradient(0deg, rgba(2,2,25,0.9360119047619048) 22%, rgba(13,13,156,1) 84%);*/
+    background: linear-gradient(0deg, rgba(2,2,25,0.9360119047619048) 22%, rgb(38, 38, 232) 84%);
 }
 
 .rodape p {
@@ -118,7 +118,7 @@ li {
     }
 
     .rodape {
-        margin:  50px 0 40px 0;
-        /*padding: 10px;*/ 
+        margin:  50px 0 0 ;
+        padding: 10px;
     }
 }
